@@ -23,6 +23,8 @@ modules:
       - type: archive
         url: https://github.com/flathub/io.github.paledega.alpine-rootfs/releases/download/20221006/20221006.zip
         sha256: 947d81ab1fb27d81564c5cb63f6d54b7df9b60dcf417d97b1328e32398c9538e
+      - type: patch
+        path: fix-appdata.patch
       - type: file
         url: https://github.com/flathub/io.github.paledega.alpine-rootfs/releases/download/20221006/alpine.tar.gz
         sha256: af9b72a3446e713f3169434e8376e59965eaba5d9334b6bd441a9c44f1b292d4
